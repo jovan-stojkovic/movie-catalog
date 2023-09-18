@@ -1,5 +1,12 @@
 const SearchButton = () => {
-    return ( <img src="https://www.iconbolt.com/iconsets/doodle-icons/search.svg" alt="" /> );
-}
- 
+  return (
+    <button className="navbar-button">
+      <img
+        src="https://www.iconbolt.com/iconsets/doodle-icons/search.svg"
+        alt="search"
+      />
+    </button>
+  );
+};
+
 export default SearchButton;

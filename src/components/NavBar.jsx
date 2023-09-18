@@ -22,10 +22,10 @@ const NavBar = () => {
                 <SearchButton />
               </li>
               <li>
-                <ThemeToggle />
+                <Filter />
               </li>
               <li>
-                <Filter />
+                <ThemeToggle />
               </li>
             </ul>
           </nav>
