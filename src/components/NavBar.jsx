@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import "../styles/navbar.scss";
 import ThemeToggle from "./ThemeToggle";
 import SearchButton from "./SearchButton";
 import Filter from "./Filter";
