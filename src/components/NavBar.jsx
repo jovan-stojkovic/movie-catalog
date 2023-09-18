@@ -13,7 +13,7 @@ const NavBar = () => {
             <Link to="/">
               <img
                 className="logo"
-                src="https://www.iconbolt.com/iconsets/elegant-set/tv.svg"
+                src="https://www.iconbolt.com/iconsets/doodle-icons/tv.svg"
                 alt="tv"
               />
             </Link>
