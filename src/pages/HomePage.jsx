@@ -1,6 +1,5 @@
 const HomePage = () => {
 
-
   return (
     <main className="main-container">
       <div className="home-page-container">
@@ -39,8 +38,6 @@ const HomePage = () => {
           harum eveniet voluptas,
         </p>
       </div>
-    
-      
     </main>
   );
 };
