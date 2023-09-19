@@ -1,11 +1,7 @@
-import SearchBar from "../components/SearchBar";
-
 const HomePage = () => {
-  
   return (
     <main className="main-container">
       <div className="home-page-container">
-        <SearchBar/>
         <p className="test-text">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis
           aliquam perspiciatis consequuntur! Perspiciatis dolorum magni error

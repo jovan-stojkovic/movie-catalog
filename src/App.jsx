@@ -10,8 +10,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 //STYLES
-import './styles/index.scss'
-import "./styles/homepage.scss"
+import "./styles/index.scss";
+import "./styles/homepage.scss";
 
 const queryClient = new QueryClient();
 
@@ -27,7 +27,7 @@ const App = () => {
               <Route path="/about" element={<AboutPage />} />
               <Route path="/singleshow/:id" element={<OneTWShowPage />} />
             </Routes>
-            <Footer/>
+            <Footer />
           </BrowserRouter>
         </QueryClientProvider>
       </main>
