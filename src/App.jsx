@@ -16,6 +16,7 @@ import "./styles/homepage.scss";
 const queryClient = new QueryClient();
 
 const App = () => {
+
   return (
     <>
       <main className="app-container">
