@@ -12,7 +12,7 @@ const NavBar = () => {
           <nav>
             <Logo />
             <div className="bignavlinks">
-              <NavLink to="/toprated">Top Rated</NavLink>
+              <NavLink to="/toprated">TopRated</NavLink>
               <NavLink to="/trending">Trending</NavLink>
             </div>
             <img
