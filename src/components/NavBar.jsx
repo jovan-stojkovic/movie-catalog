@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../styles/navbar.scss";
 import ThemeToggle from "./ThemeToggle";
 import SearchButton from "./SearchButton";
-import Filter from "./Filter";
+import Logo from "./Logo";
 
 const NavBar = () => {
   return (
@@ -10,19 +10,25 @@ const NavBar = () => {
       <div className="navbar">
         <div className="container">
           <nav>
-            <Link to="/">
-              <img
-                className="logo"
-                src="https://www.iconbolt.com/iconsets/doodle-icons/tv.svg"
-                alt="tv"
-              />
-            </Link>
+            <Logo />
+            <div className="bignavlinks">
+              <NavLink to="/toprated">Top Rated</NavLink>
+              <NavLink to="/trending">Trending</NavLink>
+            </div>
+            <img
+              src="https://www.iconbolt.com/iconsets/coolicons/line-xl.svg"
+              alt=""
+            />
+            <div className="navlinks">
+              <NavLink to="/action">Action</NavLink>
+              <NavLink to="/comedy">Comedy</NavLink>
+              <NavLink to="/horror">Horror</NavLink>
+              <NavLink to="/romance">Romance</NavLink>
+              <NavLink to="/documentaries">Documentaries</NavLink>
+            </div>
             <ul>
               <li>
                 <SearchButton />
-              </li>
-              <li>
-                <Filter />
               </li>
               <li>
                 <ThemeToggle />
