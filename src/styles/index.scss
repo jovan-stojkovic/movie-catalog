@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
 //200 400 700
+$PalePurple: hsla(240, 65%, 78%, 0.5);
+$Purple: hsla(240, 65%, 78%, 1);
+$AlmostWhite: hsl(60, 100%, 100%);
+$VeryDarkBlue: hsl(205, 84%, 22%);
+$AlmostBlack: hsl(0, 0%, 9%);
+$DarkModeBlue: hsl(208, 28%, 18%);
+
+
 * {
   box-sizing: border-box;
   margin: 0;
