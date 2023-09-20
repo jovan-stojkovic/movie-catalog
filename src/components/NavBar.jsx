@@ -1,8 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
-import "../styles/navbar.scss";
 import ThemeToggle from "./ThemeToggle";
 import SearchButton from "./SearchButton";
-import Logo from "./Logo";
 
 const NavBar = () => {
   return (
@@ -10,7 +8,6 @@ const NavBar = () => {
       <div className="navbar">
         <div className="nav-bar-container">
           <nav>
-            <Logo />
             <div className="bignavlinks">
               <NavLink to="/toprated">TopRated</NavLink>
             </div>

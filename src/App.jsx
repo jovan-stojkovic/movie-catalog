@@ -9,7 +9,7 @@ import Documentaries from "./pages/Documentaries";
 
 // COMPONENTS:
 import NavBar from "./components/NavBar";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import BackToTopButton from "./components/BackToTopButton";
 
 // OTHER:
@@ -18,7 +18,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 //STYLES
 import "./styles/index.scss";
-import "./styles/homepage.scss";
 
 const queryClient = new QueryClient();
 

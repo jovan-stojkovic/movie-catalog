@@ -2,7 +2,7 @@
 //200 400 700
 $PalePurple: hsla(240, 65%, 78%, 0.5);
 $Purple: hsla(240, 65%, 78%, 1);
-$AlmostWhite: hsl(60, 100%, 100%);
+$AlmostWhite: hsl(60, 6%, 86%);
 $VeryDarkBlue: hsl(205, 84%, 22%);
 $AlmostBlack: hsl(0, 0%, 9%);
 $DarkModeBlue: hsl(208, 28%, 18%);
@@ -14,4 +14,8 @@ $DarkModeBlue: hsl(208, 28%, 18%);
   padding: 0;
   font-family: 'Nunito', sans-serif;
   font-weight: 200;
+}
+
+html {
+  background-color: $AlmostWhite;
 }
