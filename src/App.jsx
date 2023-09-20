@@ -10,6 +10,7 @@ import Documentaries from "./pages/Documentaries";
 // COMPONENTS:
 import NavBar from "./components/NavBar";
 import Footer from "./components/footer";
+import BackToTopButton from "./components/BackToTopButton";
 
 // OTHER:
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -28,6 +29,7 @@ const App = () => {
         <QueryClientProvider client={queryClient}>
           <BrowserRouter>
             <NavBar />
+            <BackToTopButton></BackToTopButton>
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/toprated" element={<TopRated />} />
