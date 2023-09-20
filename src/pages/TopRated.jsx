@@ -3,8 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 export const fetchData = async () => {
-  const genre = "top_rated";
-  const apiUrl = `https://api.themoviedb.org/3/movie/${genre}?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US`;
+  const apiUrl = `https://api.themoviedb.org/3/movie/top_rated?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US`;
 
   try {
     const response = await axios.get(apiUrl);

@@ -13,7 +13,6 @@ const NavBar = () => {
             <Logo />
             <div className="bignavlinks">
               <NavLink to="/toprated">TopRated</NavLink>
-              <NavLink to="/trending">Trending</NavLink>
             </div>
             <img
               src="https://www.iconbolt.com/iconsets/coolicons/line-xl.svg"

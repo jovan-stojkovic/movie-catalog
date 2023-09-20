@@ -1,7 +1,6 @@
 // PAGES:
 import HomePage from "./pages/HomePage";
 import TopRated from "./pages/TopRated";
-import Trending from "./pages/Trending";
 import Action from "./pages/Action";
 import Comedy from "./pages/Comedy";
 import Horror from "./pages/Horror";
@@ -32,7 +31,6 @@ const App = () => {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/toprated" element={<TopRated />} />
-              <Route path="/trending" element={<Trending />} />
               <Route path="/action" element={<Action />} />
               <Route path="/comedy" element={<Comedy />} />
               <Route path="/horror" element={<Horror />} />
