@@ -36,14 +36,14 @@ const App = () => {
         <QueryClientProvider client={queryClient}>
           <BrowserRouter>
             <ThemeContext.Provider value={{ theme, toggleTheme }}>
-            <button className="toggle" onClick={toggleTheme} id={theme}>
-                  <img
-                    src="https://www.iconbolt.com/iconsets/fluent-emoji-flat/sun.svg"
-                    alt="theme"
-                  />
-                </button>
+              <button className="toggle" onClick={toggleTheme} id={theme}>
+                <img
+                  src="https://www.iconbolt.com/iconsets/fluent-emoji-flat/sun.svg"
+                  alt="theme"
+                />
+              </button>
               <NavBar />
-               
+
               <BackToTopButton />
               <Routes>
                 <Route className="wrap" path="/" element={<HomePage />} />
