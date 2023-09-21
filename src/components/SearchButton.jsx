@@ -1,9 +1,23 @@
 import "../styles/navbar.scss";
+import "../styles/search-button.scss";
+import { useState } from "react";
 
-const SearchButton = () => {
+const SearchIcon = () => {
+  const [show, setShow] = useState(true);
+
   return (
     <>
-      <button className="navbar-button search-button">
+      {show && (
+        <div className="father">
+          <input
+            autoFocus
+            type="Search"
+            className="search-input"
+            placeholder="Search..."
+          ></input>
+        </div>
+      )}
+      <button className="navbar-button" onClick={() => setShow(!show)}>
         <img
           src="https://www.iconbolt.com/iconsets/flux-icons/search.svg"
           alt="search"
@@ -13,4 +27,4 @@ const SearchButton = () => {
   );
 };
 
-export default SearchButton;
+export default SearchIcon;

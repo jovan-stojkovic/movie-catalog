@@ -3,6 +3,8 @@ import ThemeToggle from "./ThemeToggle";
 import SearchButton from "./SearchButton";
 import "../styles/navbar.scss";
 
+
+
 const NavBar = () => {
   return (
     <>
@@ -16,7 +18,7 @@ const NavBar = () => {
                 alt="Home"
               />
             </Link>
-            <div className="navlinks">
+            <div>
               <NavLink className="nav-link" to="/toprated">
                 TopRated
               </NavLink>
@@ -37,7 +39,7 @@ const NavBar = () => {
               </NavLink>
             </div>
             <ul>
-              <li>
+              <li className="search-container">
                 <SearchButton />
               </li>
               <li>
