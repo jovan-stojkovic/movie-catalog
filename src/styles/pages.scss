@@ -1,0 +1,29 @@
+@import "./index.scss";
+
+.padd {
+  height: 140px;
+  width: 100%;
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+
+  img {
+    transition: transform 0.3s;
+    border: rgb(43, 43, 43) 5px solid;
+    border-radius: 4px;
+    z-index: 1;
+    height: 350px;
+    width: auto;
+  }
+  img:hover {
+    transform: scale(1.1);
+    border: black 5px solid;
+  }
+}

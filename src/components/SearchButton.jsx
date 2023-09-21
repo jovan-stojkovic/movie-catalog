@@ -1,4 +1,4 @@
-import "../styles/styles.scss";
+import "../styles/navbar.scss";
 
 const SearchButton = () => {
   return (

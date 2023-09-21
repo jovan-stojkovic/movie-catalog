@@ -30,7 +30,7 @@ const App = () => {
             <NavBar />
             <BackToTopButton />
             <Routes>
-              <Route path="/" element={<HomePage />} />
+              <Route className="wrap" path="/" element={<HomePage />} />
               <Route path="/toprated" element={<TopRated />} />
               <Route path="/action" element={<Action />} />
               <Route path="/comedy" element={<Comedy />} />

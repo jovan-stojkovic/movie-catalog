@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 import { fetchDataAction } from "../helpers/fetchData";
+import "../styles/pages.scss";
 
 const Action = () => {
   const imgBaseUrl = "http://image.tmdb.org/t/p/w185";
@@ -10,22 +11,29 @@ const Action = () => {
   });
 
   return (
-    <main className="page-main">
-      <div className="genre-page">
-        <div className="movie-card">
-          <Link>
-            {query.data &&
-              query.data.results.map((movie) => (
-                <img
-                  key={movie.id}
-                  src={`${imgBaseUrl}${movie.poster_path}`}
-                  alt={movie.title}
-                />
-              ))}
-          </Link>
-        </div>
-      </div>
-    </main>
+    <>
+      <div className="padd"></div>
+      <Link className="page">
+        {query.data &&
+          query.data.results.map((movie) => (
+            <img
+              key={movie.id}
+              src={`${imgBaseUrl}${movie.poster_path}`}
+              alt={movie.title}
+            />
+          ))}
+      </Link>
+      <Link className="page">
+        {query.data &&
+          query.data.results.map((movie) => (
+            <img
+              key={movie.id}
+              src={`${imgBaseUrl}${movie.poster_path}`}
+              alt={movie.title}
+            />
+          ))}
+      </Link>
+    </>
   );
 };
 

@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import SearchButton from "./SearchButton";
-import "../styles/styles.scss";
+import "../styles/navbar.scss";
 
 const NavBar = () => {
   return (
