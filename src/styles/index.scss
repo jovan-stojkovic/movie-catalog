@@ -15,12 +15,14 @@ $KindOfRed: hsl(5, 87%, 60%);
   font-weight: 400;
 }
 
-#main {
-  &.light {
+.app-container {
+ 
+  &#light {
     background-color: $AlmostWhite;
   }
 
-  &.dark {
+  &#dark {
     background-color: $DarkModeBlue;
   }
 }
+

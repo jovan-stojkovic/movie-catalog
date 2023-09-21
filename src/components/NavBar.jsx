@@ -1,5 +1,4 @@
 import { Link, NavLink } from "react-router-dom";
-import ThemeToggle from "./ThemeToggle";
 import SearchButton from "./SearchButton";
 import "../styles/navbar.scss";
 
@@ -17,7 +16,7 @@ const NavBar = () => {
                 alt="Home"
               />
             </Link>
-            <div>
+            <div className="genre-links">
               <NavLink className="nav-link" to="/toprated">
                 TopRated
               </NavLink>
@@ -40,9 +39,6 @@ const NavBar = () => {
             <ul>
               <li className="search-container">
                 <SearchButton />
-              </li>
-              <li>
-                <ThemeToggle />
               </li>
             </ul>
           </nav>
