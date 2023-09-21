@@ -28,7 +28,7 @@ const App = () => {
         <QueryClientProvider client={queryClient}>
           <BrowserRouter>
             <NavBar />
-            <BackToTopButton></BackToTopButton>
+            <BackToTopButton />
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/toprated" element={<TopRated />} />
