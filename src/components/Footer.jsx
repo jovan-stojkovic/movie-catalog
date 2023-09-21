@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "../styles/styles.scss";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           <li>
             <Link to={"https://www.instagram.com"}>
               <img
-                src="https://www.iconbolt.com/iconsets/doodle-icons/instagram.svg"
+                src="https://www.iconbolt.com/iconsets/iconoir/instagram.svg"
                 alt="instagram"
               />
             </Link>
@@ -17,7 +18,7 @@ const Footer = () => {
           <li>
             <Link to={"https://www.twitter.com"}>
               <img
-                src="https://www.iconbolt.com/iconsets/doodle-icons/twitter.svg"
+                src="https://www.iconbolt.com/iconsets/iconoir/twitter.svg"
                 alt="twitter"
               />
             </Link>
@@ -25,7 +26,7 @@ const Footer = () => {
           <li>
             <Link to={"https://www.facebook.com"}>
               <img
-                src="https://www.iconbolt.com/iconsets/doodle-icons/facebook.svg"
+                src="https://www.iconbolt.com/iconsets/iconoir/facebook.svg"
                 alt="facebook"
               />
             </Link>
@@ -33,7 +34,7 @@ const Footer = () => {
           <li>
             <Link to={"https://www.youtube.com"}>
               <img
-                src="https://www.iconbolt.com/iconsets/doodle-icons/youtube.svg"
+                src="https://www.iconbolt.com/iconsets/iconoir/youtube.svg"
                 alt="youtube"
               />
             </Link>
@@ -41,7 +42,7 @@ const Footer = () => {
           <li>
             <Link to={"https://www.tiktok.com"}>
               <img
-                src="https://www.iconbolt.com/iconsets/doodle-icons/tik-tok.svg"
+                src="https://www.iconbolt.com/iconsets/iconoir/tiktok.svg"
                 alt="tik-tok"
               />
             </Link>
