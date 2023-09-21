@@ -8,7 +8,7 @@
   backdrop-filter: blur(5px);
   box-shadow: 0 45px 65px rgba(5, 5, 5, 0), 0 35px 22px rgba(0, 0, 0, 0.16);
   height: 120px;
-  z-index: 2;
+  z-index: 4;
 
   .navbar-container {
     max-width: 1440px;
@@ -33,7 +33,7 @@
         margin-right: 30px;
 
         &:hover {
-          color: $KindOfRed;
+          color: $VeryDarkBlue;
         }
         &.active {
           font-weight: 700;

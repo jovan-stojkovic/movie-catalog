@@ -8,12 +8,11 @@ const SearchIcon = () => {
   return (
     <>
       {show && (
-        <div className="father">
+        <div className="input-wrapper">
           <input
-            autoFocus
             type="Search"
             className="search-input"
-            placeholder="Search..."
+            placeholder="Type to search..."
           ></input>
         </div>
       )}

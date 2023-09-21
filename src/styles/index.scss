@@ -15,6 +15,12 @@ $KindOfRed: hsl(5, 87%, 60%);
   font-weight: 400;
 }
 
-html {
-  background-color: $AlmostWhite;
+#main {
+  &.light {
+    background-color: $AlmostWhite;
+  }
+
+  &.dark {
+    background-color: $DarkModeBlue;
+  }
 }
