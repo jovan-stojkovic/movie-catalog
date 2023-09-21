@@ -68,3 +68,17 @@
     }
   }
 }
+
+
+
+@media (max-width: 900px) {
+  .navbar { height: 200px;
+    nav {
+      display: none;
+      .nav-link{
+        display: grid;
+        
+      }
+    }
+  }
+}

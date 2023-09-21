@@ -28,3 +28,20 @@
     z-index: 3;
   }
 }
+
+@media (max-width: 900px) {
+  .padd {
+    height: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 100px;
+    height: auto;
+  }
+}
