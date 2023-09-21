@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600;700&display=swap"); //200 400 600 700
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600;700&display=swap");
 $PalePurple: hsla(240, 65%, 78%, 0.5);
 $Purple: hsla(240, 65%, 78%, 1);
 $AlmostWhite: hsl(0, 0%, 82%);
@@ -16,7 +16,6 @@ $KindOfRed: hsl(5, 87%, 60%);
 }
 
 .app-container {
- 
   &#light {
     background-color: $AlmostWhite;
   }
@@ -25,4 +24,3 @@ $KindOfRed: hsl(5, 87%, 60%);
     background-color: $DarkModeBlue;
   }
 }
-

@@ -2,11 +2,10 @@ import { Link, NavLink } from "react-router-dom";
 import SearchButton from "./SearchButton";
 import "../styles/navbar.scss";
 
-
 const NavBar = () => {
   return (
     <>
-      <div className="navbar" >
+      <div className="navbar">
         <div className="navbar-container">
           <nav>
             <Link to={"/"}>

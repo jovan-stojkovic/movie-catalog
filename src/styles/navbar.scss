@@ -40,6 +40,7 @@
           font-size: 1.5rem;
         }
       }
+
       ul {
         display: flex;
         li {
@@ -69,15 +70,13 @@
   }
 }
 
-
-
 @media (max-width: 900px) {
-  .navbar { height: 200px;
+  .navbar {
+    height: 200px;
     nav {
       display: none;
-      .nav-link{
+      .nav-link {
         display: grid;
-        
       }
     }
   }

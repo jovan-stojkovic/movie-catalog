@@ -23,14 +23,14 @@ const BackToTopButton = () => {
 
   return (
     <>
-        {backToTopButton && (
-          <button onClick={scrollUp} className="to-the-top-button">
-            <img
-              src="https://www.iconbolt.com/iconsets/heroicons-outline/arrow-up-circle.svg"
-              alt=""
-            />
-          </button>
-        )}
+      {backToTopButton && (
+        <button onClick={scrollUp} className="to-the-top-button">
+          <img
+            src="https://www.iconbolt.com/iconsets/heroicons-outline/arrow-up-circle.svg"
+            alt=""
+          />
+        </button>
+      )}
     </>
   );
 };
