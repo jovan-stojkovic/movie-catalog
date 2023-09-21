@@ -1,8 +1,10 @@
+import "../styles/styles.scss";
+
 const ThemeToggle = () => {
   return (
     <button className="navbar-button">
       <img
-        src="https://www.iconbolt.com/iconsets/doodle-icons/sun.svg"
+        src="https://www.iconbolt.com/iconsets/responsive-flat/sun.svg"
         alt="theme"
       />
     </button>
@@ -10,3 +12,5 @@ const ThemeToggle = () => {
 };
 
 export default ThemeToggle;
+
+//nightmode url https://www.iconbolt.com/iconsets/responsive-flat/cloud.svg

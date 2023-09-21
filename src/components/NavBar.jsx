@@ -1,26 +1,40 @@
 import { Link, NavLink } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import SearchButton from "./SearchButton";
+import "../styles/styles.scss";
 
 const NavBar = () => {
   return (
     <>
       <div className="navbar">
-        <div className="nav-bar-container">
+        <div className="navbar-container">
           <nav>
-            <div className="bignavlinks">
-              <NavLink to="/toprated">TopRated</NavLink>
-            </div>
-            <img
-              src="https://www.iconbolt.com/iconsets/coolicons/line-xl.svg"
-              alt=""
-            />
+            <Link to={"/"}>
+              <img
+                className="logo"
+                src="https://www.iconbolt.com/iconsets/elegant-set/tv.svg"
+                alt="Home"
+              />
+            </Link>
             <div className="navlinks">
-              <NavLink to="/action">Action</NavLink>
-              <NavLink to="/comedy">Comedy</NavLink>
-              <NavLink to="/horror">Horror</NavLink>
-              <NavLink to="/romance">Romance</NavLink>
-              <NavLink to="/documentaries">Documentaries</NavLink>
+              <NavLink className="nav-link" to="/toprated">
+                TopRated
+              </NavLink>
+              <NavLink className="nav-link" to="/action">
+                Action
+              </NavLink>
+              <NavLink className="nav-link" to="/comedy">
+                Comedy
+              </NavLink>
+              <NavLink className="nav-link" to="/horror">
+                Horror
+              </NavLink>
+              <NavLink className="nav-link" to="/romance">
+                Romance
+              </NavLink>
+              <NavLink className="nav-link" to="/documentaries">
+                Documentaries
+              </NavLink>
             </div>
             <ul>
               <li>

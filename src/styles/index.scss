@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
-//200 400 700
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600;700&display=swap"); //200 400 600 700
 $PalePurple: hsla(240, 65%, 78%, 0.5);
 $Purple: hsla(240, 65%, 78%, 1);
 $AlmostWhite: hsl(60, 6%, 86%);
 $VeryDarkBlue: hsl(205, 84%, 22%);
 $AlmostBlack: hsl(0, 0%, 9%);
 $DarkModeBlue: hsl(208, 28%, 18%);
-
+$KindOfRed: hsl(5, 87%, 60%);
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 200;
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
 }
 
 html {

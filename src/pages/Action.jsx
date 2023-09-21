@@ -10,20 +10,22 @@ const Action = () => {
   });
 
   return (
-    <div className="genre-page">
-      <div className="movie-card">
-        <Link>
-          {query.data &&
-            query.data.results.map((movie) => (
-              <img
-                key={movie.id}
-                src={`${imgBaseUrl}${movie.poster_path}`}
-                alt={movie.title}
-              />
-            ))}
-        </Link>
+    <main className="page-main">
+      <div className="genre-page">
+        <div className="movie-card">
+          <Link>
+            {query.data &&
+              query.data.results.map((movie) => (
+                <img
+                  key={movie.id}
+                  src={`${imgBaseUrl}${movie.poster_path}`}
+                  alt={movie.title}
+                />
+              ))}
+          </Link>
+        </div>
       </div>
-    </div>
+    </main>
   );
 };
 

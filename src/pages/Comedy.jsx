@@ -10,6 +10,7 @@ const Comedy = () => {
   });
 
   return (
+    <main className="page-main">
     <div className="genre-page">
       <div className="movie-card">
         <Link>
@@ -24,6 +25,7 @@ const Comedy = () => {
         </Link>
       </div>
     </div>
+    </main>
   );
 };
 
